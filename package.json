@@ -1,0 +1,25 @@
+{
+  "name": "ManualTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js",
+    "test:watch": "onchange \" ./*.js\" -- npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Szmiko/ManualTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Szmiko/ManualTest/issues"
+  },
+  "homepage": "https://github.com/Szmiko/ManualTest#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "onchange": "^4.0.0"
+  }
+}
